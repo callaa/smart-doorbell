@@ -88,7 +88,7 @@ cannot be directly wired into the GPIO port, since the controller can source ver
 little current, so a transistor is needed. To protect the transistor from inductive
 kick, we also need a diode and a capacitor.
 
-![Circuit diagram](images/solenoid.png)
+![Circuit diagram](pictures/solenoid.png)
 
 The value of the resistor depends on the transistor you pick. Check the
 datasheet, but something around 1K is typical.
